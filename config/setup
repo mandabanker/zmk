@@ -1,0 +1,15 @@
+identifier: corne
+name: Corne
+type: keyboard
+arch: main
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - adc
+  - usb_device
+  - ble
+  - ieee802154
+  - pwm
+  - watchdog
